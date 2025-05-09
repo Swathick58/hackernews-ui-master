@@ -84,7 +84,7 @@ const CreatePostPage = () => {
         </h1>
         <div className="space-y-4">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium text-gray-600 mb-1">
               Title
             </label>
             <input
@@ -110,7 +110,7 @@ const CreatePostPage = () => {
           <button
             onClick={handleSubmit}
             disabled={isSubmitting}
-            className="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700 transition-colors disabled:opacity-50"
+            className="w-full bg-green-200 text-white py-2 rounded hover:bg-green-900 transition-colors disabled:opacity-50"
           >
             {isSubmitting ? "Creating post..." : "Create Post"}
           </button>

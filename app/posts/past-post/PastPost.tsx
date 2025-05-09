@@ -54,7 +54,7 @@ const PastPosts = () => {
     <div className="mx-auto max-w-7xl px-4 pb-16">
       <h2 className="text-xl font-semibold mb-6">Posts (Yesterday)</h2>
       {loading && <p className="text-center text-gray-500">Loading...</p>}
-      {error && <p className="text-center text-red-500">{error}</p>}
+      {error && <p className="text-center text-red-800">{error}</p>}
 
       <ul className="space-y-4">
         {posts.map((post) => (
@@ -69,7 +69,7 @@ const PastPosts = () => {
               <span className="mx-2">•</span>
               <Link
                 href={`/users/profile/${post.author.id}`}
-                className="hover:text-blue-600 hover:underline"
+                className="hover:text-blue-900 hover:underline"
               >
                 {post.author.name || post.author.username}
               </Link>

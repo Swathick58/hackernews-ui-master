@@ -37,11 +37,11 @@ const NavigationBar: React.FC<NavigationBarProps> = ({
 
   return (
     <div className="max-w-7xl mx-auto sticky top-0 z-50">
-      <div className="bg-[#ff6600] text-black text-sm w-full p-2">
+      <div className="bg-[#8932c4] text-black text-sm w-full p-2">
         <div className="max-w-screen-xl mx-auto px-2 py-1 flex justify-between items-center">
           {/* Left side - Logo and Desktop Nav */}
           <div className="flex items-center gap-2">
-            <span className="bg-orange-700 text-white font-bold px-1 cursor-pointer hidden sm:block">
+            <span className="bg-orange-900 text-white font-bold px-1 cursor-pointer hidden sm:block">
               Y
             </span>
             <span
